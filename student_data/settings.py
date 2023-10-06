@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'student_data.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'studentform',
+        'NAME': 'student_inquiry',
         'USER': 'root',
         'PASSWORD': '12345',
         'HOST': 'localhost',

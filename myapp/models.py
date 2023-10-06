@@ -6,8 +6,12 @@ class StudentForm(models.Model):
     last_name = models.CharField(max_length=50)
     email = models.CharField(max_length=50)
     mobile_no = models.IntegerField()
-    address = models.CharField(max_length=100)
+    street_address = models.CharField(max_length=100)
+    state = models.CharField(max_length=100)
+    city = models.CharField(max_length=100)
+    course = models.CharField(max_length=100)
+    duration = models.CharField(max_length=100)
 
     class Meta:
-        db_table="studentdata"
+        db_table="student_data"
 
